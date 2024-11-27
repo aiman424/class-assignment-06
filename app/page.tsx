@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from "@/components/Header";
-import Section from "@/components/Section1";
 import Section2 from '@/components/Section2';
 import Section3 from '@/components/Section3';
 import Testimonials from '@/components/Testimonials';
@@ -13,7 +12,6 @@ const Home = () => {
   return (
     <div>
       <Header/>
-      <Section/>
       <Section2/>
       <Section3/>
       <Achievments/>

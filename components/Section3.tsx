@@ -4,17 +4,17 @@ import Image from 'next/image'
 const Section3 = () => {
   return (
     <div className='w-[1369px] h-[900px] py-[112px]  bg-[#FFFFFF]'>
-      <div className='w-[768px] h-[80px] px-[200px] gap-[300px]'>
+      <div className='md:w-[768px] md:h-[80px] w-[385px] h-[162px] md:px-[200px] px-[20px] gap-[300px]'>
       
-      <h1 className='w-[768px] h-[58px] text-[#000000] pl-[140px] flex justify-center font-[Roboto] text-[40px] font-bold'>Explore Courses By Category</h1>
-      <p className='w-[760px] h-[27px] font-[Roboto] mt-[20px] pl-[144px] text-[15px] text-[#000000]'>Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
+      <h1 className='md:w-[768px] md:h-[58px] w-[385px] h-[84px] text-[#000000] md:pl-[140px] flex justify-center font-[Roboto] md:text-[40px] text-[32px] text-center font-bold'>Explore Courses By Category</h1>
+      <p className='md:w-[760px] md:h-[27px] w-[385px] h-[54px] font-[Roboto] md:mt-[20px] mt-[30px] md:pl-[144px] md:text-[15px] text-[18px] text-[#000000]'>Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
   </div>
 
-      <div className='w-[1369px] h-[637px] py-[112px] px-[30px] gap-[96px] bg-[#FFFFFF]'>
+      <div className='w-[1369px] h-[637px] py-[112px] md:px-[30px] px-[20px] gap-[96px] bg-[#FFFFFF]'>
 
-  <div className='grid grid-cols-3 gap-[20px]'>
+  <div className='md:grid md:grid-cols-3 grid-col-1 md:gap-[20px] '>
   {/* Card 1 */}
-  <div className='w-[410.67px] h-auto border rounded p-[16px] flex items-center gap-[15px] bg-[#F7F7F7]'>
+  <div className='md:w-[410.67px] md:h-auto w-[380px] h-[132px] border rounded p-[16px] flex items-center gap-[20px] bg-[#F7F7F7]'>
     <div className='w-[100px] h-[100px] flex items-center justify-center bg-[#FFFFFF] rounded'>
       <Image
         src='/pen-tool-2.svg'
@@ -30,7 +30,7 @@ const Section3 = () => {
   </div>
 
   {/* Card 2 */}
-  <div className='w-[410.67px] h-auto border rounded p-[16px] flex items-center gap-[16px] bg-[#F7F7F7]'>
+  <div className='md:w-[410.67px] md:h-auto w-[380px] h-[132px] border rounded p-[16px] flex items-center gap-[20px] mt-[20px] bg-[#F7F7F7]'>
     <div className='w-[100px] h-[100px] flex items-center justify-center bg-[#FFFFFF] rounded'>
       <Image
         src='/volume-high.svg'
@@ -47,7 +47,7 @@ const Section3 = () => {
 
 
      {/*card 3*/}
-     <div className='w-[410.67px] h-auto border rounded p-[16px] flex items-center gap-[16px] bg-[#F7F7F7]'>
+     <div className='md:w-[410.67px] md:h-auto w-[380px] h-[132px] border rounded p-[16px] flex items-center gap-[20px] mt-[20px] bg-[#F7F7F7]'>
     <div className='w-[100px] h-[100px] flex items-center justify-center bg-[#FFFFFF] rounded'>
       <Image
         src='/group.svg'
@@ -63,7 +63,7 @@ const Section3 = () => {
      </div>
 
      {/*card 4*/}
-     <div className='w-[410.67px] h-auto border rounded p-[16px] flex items-center gap-[16px] bg-[#F7F7F7]'>
+     <div className='w-[410.67px] h-auto border rounded p-[16px] items-center gap-[16px] bg-[#F7F7F7] hidden md:flex'>
     <div className='w-[100px] h-[100px] flex items-center justify-center bg-[#FFFFFF] rounded'>
       <Image
         src='/microphone.svg'
@@ -81,7 +81,7 @@ const Section3 = () => {
 
 
      {/*card 5*/}
-     <div className='w-[410.67px] h-auto border rounded p-[16px] flex items-center gap-[16px] bg-[#F7F7F7]'>
+     <div className='w-[410.67px] h-auto border rounded p-[16px] items-center gap-[16px] bg-[#F7F7F7] hidden md:flex'>
     <div className='w-[100px] h-[100px] flex items-center justify-center bg-[#FFFFFF] rounded'>
       <Image
         src='/link.svg'
@@ -98,7 +98,7 @@ const Section3 = () => {
 
        
        {/*card 6*/}
-     <div className='w-[410.67px] h-auto border rounded p-[16px] flex items-center gap-[16px] bg-[#F7F7F7]'>
+     <div className='w-[410.67px] h-auto border rounded p-[16px] items-center gap-[16px] bg-[#F7F7F7] hidden md:flex'>
     <div className='w-[100px] h-[100px] flex items-center justify-center bg-[#FFFFFF] rounded'>
       <Image
         src='/arrow-2.svg'
@@ -115,7 +115,7 @@ const Section3 = () => {
 
 
      {/*card 7*/}
-     <div className='w-[410.67px] h-auto border rounded p-[16px] flex items-center gap-[16px] bg-[#F7F7F7]'>
+     <div className='w-[410.67px] h-auto border rounded p-[16px] items-center gap-[16px] bg-[#F7F7F7] hidden md:flex'>
     <div className='w-[100px] h-[100px] flex items-center justify-center bg-[#FFFFFF] rounded'>
       <Image
         src='/briefcase.svg'
@@ -132,7 +132,7 @@ const Section3 = () => {
 
 
      {/*card 8*/}
-     <div className='w-[410.67px] h-auto border rounded p-[16px] flex items-center gap-[16px] bg-[#F7F7F7]'>
+     <div className='w-[410.67px] h-auto border rounded p-[16px] items-center gap-[16px] bg-[#F7F7F7] hidden md:flex'>
     <div className='w-[100px] h-[100px] flex items-center justify-center bg-[#FFFFFF] rounded'>
       <Image
         src='/book.svg'
@@ -149,7 +149,7 @@ const Section3 = () => {
      
 
      {/*card 9*/}
-     <div className='w-[410.67px] h-auto border rounded p-[16px] flex items-center gap-[16px] bg-[#F7F7F7]'>
+     <div className='w-[410.67px] h-auto border rounded p-[16px] items-center gap-[16px] bg-[#F7F7F7] hidden md:flex'>
     <div className='w-[100px] h-[100px] flex items-center justify-center bg-[#FFFFFF] rounded'>
       <Image
         src='/file.svg'
@@ -164,8 +164,8 @@ const Section3 = () => {
        </div>
      </div>
 
-      <div className='flex justify-center items-center mt-[30px]'>
-        <div className='pl-[900px]'>
+      <div className='flex md:justify-center items-center mt-[30px]'>
+        <div className='md:pl-[900px] px-[120px]'>
         <button className='w-[158px] h-[48px] rounded border py-[12px] px-[17px] gap-[8px] border-[#000000] text-[#000000]'>
         View All Courses
         </button>
